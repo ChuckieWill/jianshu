@@ -7,6 +7,10 @@ import { actionCreators }  from './store'
 
 
 class  Header  extends Component {
+  // constructor(props) {
+  //   super(props)
+  //   this.props.onInoutFocus(this.props.list)
+  // }
   render() {
     const {focused, mouseIn, list, onInoutFocus, onInputBlur} = this.props
     return (
