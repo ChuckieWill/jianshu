@@ -8,10 +8,10 @@ export const HeaderWrapper = styled.div`
   padding: 0 111px;
 `
 
-export const Logo = styled.a`
+export const Logo = styled.div`
   position: absolute;
   top:0;
-  left: 250px;
+  left: 20px;
   display: block;
   height: 56px;
   width: 100px;
@@ -149,7 +149,7 @@ export const NavSearch = styled.input.attrs({
 
 export const Addition = styled.div`
   position: absolute;
-  right: 250px;
+  right: 20px;
   top: 0;
   height: 56px;
 `
