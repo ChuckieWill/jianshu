@@ -12,8 +12,8 @@ class Home extends Component {
         {
           list.map((item, index) => {
             return (
-              <Link to='/detail'>
-                <ListItem key={index}>
+              <Link key={index} to={'/detail/' + item.id}>
+                <ListItem >
                   <img className="list-img" 
                       alt="list-img"
                       src={item.imgUrl}></img>
