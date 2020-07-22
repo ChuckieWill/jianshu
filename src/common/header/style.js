@@ -16,7 +16,7 @@ export const Logo = styled.div`
   height: 56px;
   width: 100px;
   background: url(${logoPic});
-  background-size: contain
+  background-size: contain;
 `
 
 export const Nav = styled.div`
